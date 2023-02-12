@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
 </head>
-<body>
+<body class="main">
     <h2 class="topheading">
-        <img src="https://bit.ly/3DWaqe0" class="image"/>
-        <span class="login">Log-in to your account</span>
+        <div  class="top">
+            <img src="https://bit.ly/3DWaqe0" class="image" />
+            <span class="login">Log-in to your account</span>
+        </div>
     </h2>
-    <div class="midheading"></div>
-    <div class="bottomheading"></div>
+    <div class="midheading">
+        <div class="email">
+            <i class="user icon"></i>
+            <input type="email" placeholder="E-mail address" class="mb"/>
+        </div>
+        <div class="password">
+            <i class="lock icon"></i>
+            <input type="password" placeholder="Password"  class="mb" />
+        </div>
+        <button class="buttontype mb">Login</button>
+    </div>
+    <div class="bottomheading">
+        <span>New to us?</span>
+        <a>Sign Up</a>
+    </div>
 </body>

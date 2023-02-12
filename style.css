@@ -1,12 +1,71 @@
+.main{
+    background-color: #DADADA;
+}
+
+.top {
+    margin-top: 80px;
+}
+
 .topheading{
     text-align: center;
 }
 
 .image {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .login {
-    font-size: 20px;
+    font-size: 16px;
+    color: #00BDC6;
+    padding-bottom: 20px;
 }
+
+.midheading {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.buttontype {
+    background-color: #00BDC6;
+    border: none;
+    margin: 6px;
+    padding: 5px 0px;
+    color: white;
+}
+
+.mb {
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.email {
+    display: inline-flex;
+    position: relative;
+    margin: 6px;
+}
+
+ .password {
+    margin: 6px;
+ }
+
+ .bottomheading {
+    background-color: #F8F8F9;
+    width: 250px;
+    height: 25px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 3px;
+ }
+
+ .icon {
+    color: gray;
+ }
